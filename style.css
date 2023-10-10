@@ -16,6 +16,15 @@ header {
     padding: 1em 5%;
 }
 
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: cursive;
+    /* i cant find the real font style that i used in figma so ill have to change it or try to find it somewhere else */
+}
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
