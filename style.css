@@ -32,22 +32,8 @@ nav ul li a {
     text-decoration: none;
 }
 
-#gallery {
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-}
 
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: grey; 
-}
 
-#text-section {
-    margin: 1em;
-    color: black;
-}
 
 footer {
     background-color: black;
@@ -55,4 +41,85 @@ footer {
     text-align: center;
     padding: 1em 0;
     margin-top: auto;
+}
+
+
+nav ul ul {
+    list-style-type: square; 
+    padding-left: 20px;
+    display: none;
+    
+}
+
+nav ul li:hover ul {
+    display:block
+}
+
+
+#numbered-list-section {
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+
+#definition-list-section {
+    padding: 1em;
+    background-color: #e1e1e1;
+}
+
+#definition-list-section dt {
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input[type="text"], textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    width: 100%;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
 }

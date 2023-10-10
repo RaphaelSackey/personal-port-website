@@ -5,42 +5,100 @@
     <title>Raph port</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Header Section -->
     <header>
         <div id="logo">Raphael</div>
         <nav>
-            <!-- the files/bages for the a tags will be added later and the design will be improved -->
-            <ul>  
-                <li><a >Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact</a></li>
-                <li><a>Blog</a></li>
-                <li><a>Features</a></li>
-                <li><a>Portfolio</a></li>
+            <ul>
+                <li><a href>Home</a></li>
+                <li>
+                    <a href>About</a>
+                    <!-- Nested List -->
+                    <ul>
+                        <li><a href>Sub Item 1</a></li>
+                        <li><a href>Sub Item 2</a></li>
+                        <li><a href>Sub Item 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://www.plattsburgh.edu/">Contact</a></li>
+                <li><a href="#text-section">Blog</a></li>
+                <li><a href>Features</a></li>
+                <li><a href>Portfolio</a></li>
             </ul>
         </nav>
     </header>
-    <section id="gallery">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
+
+
+    <!-- Numbered List Section -->
+    <section id="numbered-list-section">
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+            <li>Item 7</li>
+            <li>Item 8</li>
+            <li>Item 9</li>
+            <li>Item 10</li>
+        </ol>
     </section>
-    <section id="text-section">
-        <h1>something</h1>
-        <h2>Something 2</h2>
-        <h3>something 3</h3>
-        <h4>something 4</h4>
-        <h5>something 5</h5>
-        <h6>something 6</h6>
-        <p><b>This is bold text.</b> <i>italic text</i> <em> emphasized text.</em> <strong>strong text.</strong></p>
-        <blockquote>
-            <p>blockquote</p>
-        </blockquote>
-        <q>inline quote.</q>
-        <cite>citation</cite>
+
+    <!-- Definition List Section -->
+    <section id="definition-list-section">
+        <dl>
+            <dt>HTML</dt>
+            <dd>A standard markup language for web browser.</dd>
+            <dt>CSS</dt>
+            <dd>A style sheet language</dd>
+            <dt>JavaScript</dt>
+            <dd>A programming language for web dev</dd>
+        </dl>
     </section>
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+        </tbody>
+    </table>
+    <form>
+        <input placeholder="Single-line input" type="text"/>
+        <textarea placeholder="Multi-line input"></textarea>
+        <label>Checkbox: <input type="checkbox"/></label>
+        <label>Radio: <input type="radio"/></label>
+        <input type="submit" value="Submit"/>
+    </form>
+
     <footer>
         <p><strong>Footer content will go here</strong></p>
     </footer>
 </body>
 </html>
+
