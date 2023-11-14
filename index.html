@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raph port</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,10 +12,9 @@
             <div id="logo"> Raphael</div>
             <nav>
                 <ul>
-                    <li>About</li>
+                    <li><a href="index.html" class="active_page">Home</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li>Contact</li>
-                    <li>Blog</li>
-                    <li>Feature</li>
                     <li>Portfolio</li>
                 </ul>    
             </nav>
@@ -31,21 +31,83 @@
                 </div>
             </div>
             <div id = "image">
-                <img src="Mask.jpg" alt="">
+                <img src="images/self/Mask.jpg" alt="">
             </div>
             
         </section>
         
     </header>
 
-    <section>
-        <div>div1</div>
-        <div>div2</div>
+    <section class="projects_sec">
+        <h2 class="main_headers">projects</h2>
+        <div class="content_block">
+            <div class="left">
+                <div class="text_section">
+                    <h2>Project Name</h2>
+                    <h6>this section will contain</h6>
+                </div>
+                <button class="proj_button">view project</button>
+            </div>
+            
+            <div class="right"></div>
+
+        </div>
+
+        <div class="content_block_reverse">
+            <div class="left"></div>
+            <div class="right">
+                <div class="text_section">
+                    <h2>Project Name</h2>
+                    <h6>this section will contain</h6>
+                </div>
+                <button class="proj_button">view project</button>
+            </div>
+            
+        </div>
+
+        <div class="content_block">
+            <div class="left">
+                <div class="text_section">
+                    <h2>Project Name</h2>
+                    <h6>this section will contain</h6>
+                </div>
+                <button class="proj_button">view project</button>
+            </div>
+            
+            <div class="right"></div>
+
+        </div>
     </section>
-    <footer>
-        <div>instagram</div>
-        <div>linkdln</div>
-        <div>gmail</div>
+
+    <h6 class="message_header">Quick Message</h6>
+
+    <section class="form_section">
+        
+        <form action="" method="post">
+            <div class="form_group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form_group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form_group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+    
+            <button type="submit" class="projects_button">Submit</button>
+        </form>
+    </section>
+    
+
+    <footer >
+        <div class="footer_img"><img src="social_logos/insta.png" alt=""></div>
+        <div class="footer_img"><img src="social_logos/linkedln.png" alt=""></div>
+        <div class="footer_img"><img src="social_logos/mail.png" alt=""></div>
     </footer>
 
 

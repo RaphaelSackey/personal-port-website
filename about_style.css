@@ -1,0 +1,173 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/inter.ttf);
+}
+
+@font-face {
+    font-family: ingrid;
+    src: url(fonts/IngridDarling.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito.ttf);
+}
+@font-face {
+    font-family: playFair;
+    src: url(fonts/Playfair.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: comforta;
+    src: url(fonts/Comforta.ttf);
+}
+
+header{
+    font-family: inter;
+    margin-top: 50px;
+}
+
+#top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 20px;
+    display: inline-block; 
+    font-family: comforta;
+}
+    
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex; 
+}
+
+ nav ul li {
+    padding: 0 25px;
+} 
+
+#content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#image{
+    height: 300px;
+    width: 300px;
+    padding: 0;
+    margin: 50px 100px 0 0;
+
+}
+
+#image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+.text_section{
+    margin: 30px 200px 50px 2%;
+    /* background-color: red; */
+}
+
+.text_section h2{
+    font-size: 70px;
+    font-family: Playfair;
+}
+
+.text_section h6{
+    font-family: nunito;
+    color: rgba(130, 130, 130, 1);
+    font-size: 20px;
+}
+
+
+body{
+    background: #F5F5F5;
+    margin: 1% 5%;
+    padding: 0;
+}
+
+#buttons{
+    display: block;
+    
+    
+
+}
+
+.projects_button{
+    height: 43px;
+    width: 115px;
+    margin-right: 25px;
+    background-color: rgba(56, 106, 141, 1);
+    font-family: nunito;
+    border-radius: 10px;
+    
+
+}
+
+.linkdln_button{
+    height: 43px;
+    width: 115px;
+    font-family: nunito;
+    border-radius: 10px;
+}
+
+.main_headers{
+display: flex;
+justify-content: center;
+font-size: 40px;
+font-family: Playfair;
+padding: 45px;
+}
+
+footer{
+    margin-top:260px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.footer_img img {
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}
+a:active {
+    text-decoration:dotted;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: rgb(167, 143, 143);
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+.active_page{
+    text-decoration: underline;
+}
