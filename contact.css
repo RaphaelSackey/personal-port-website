@@ -26,6 +26,21 @@
     font-family: comforta;
     src: url(fonts/Comforta.ttf);
 }
+
+@keyframes shake {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(-5px);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    75% {
+      transform: translateX(-5px);
+    }
+  }
 body{
     background: #F5F5F5;
     margin: 1% 5%;
@@ -103,6 +118,11 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+.contact_item img:hover{
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite
 }
 
 

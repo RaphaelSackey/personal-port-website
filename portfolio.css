@@ -122,8 +122,6 @@ a:hover {
 .content_block .left{
     height: 500px;
     width: 500px;
-    
-    
     background-color: rgba(255, 255, 255, 1);
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
@@ -139,15 +137,17 @@ a:hover {
 }
 .content_block .left h2{
     font-size: 30px;
-    margin-left: 50%;
-    margin-top: 40%;
-    white-space: nowrap
+    margin-left: 30%;
+    white-space:inherit;
+    width: 300px;
+
 
 }
 
 .content_block .left h6{
     padding-left: 10px;
-    white-space: break-spaces;
+    width: 450px;
+    white-space:break-space;
 }
 
 .proj_button{
@@ -155,10 +155,16 @@ a:hover {
     width: 150px;
     border-radius: 50px;
     font-family: nunito;
-    margin-left: 30%;
+    margin-top: 10%;
+    margin-left: 35%;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid black;
+    align-self: center;
     
+}
+
+.proj_button:hover{
+    background-color: rgba(56, 106, 141, 1);
 }
 .content_block .right{
     height: 500px;
@@ -205,15 +211,17 @@ a:hover {
 }
 .content_block_reverse .right h2{
     font-size: 30px;
-    margin-left: 50%;
-    margin-top: 40%;
-    white-space: nowrap
+    margin-left: 30%;
+    /* margin-top: 0; */
+    white-space:inherit;
+    width: 300px;
 
 }
 
 .content_block_reverse .right h6{
     padding-left: 10px;
-    white-space: break-spaces;
+    width: 450px;
+    white-space:break-space;
 }
 
 
