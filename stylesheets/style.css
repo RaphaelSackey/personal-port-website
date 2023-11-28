@@ -1,39 +1,31 @@
 @font-face {
     font-family: inter;
-    src: url(fonts/inter.ttf);
+    src: url(../fonts/inter.ttf);
 }
 
 @font-face {
     font-family: ingrid;
-    src: url(fonts/IngridDarling.ttf);
+    src: url(../fonts/IngridDarling.ttf);
 }
 
 @font-face {
     font-family: nunito;
-    src: url(fonts/Nunito.ttf);
+    src: url(../fonts/Nunito.ttf);
 }
 @font-face {
     font-family: playFair;
-    src: url(fonts/Playfair.ttf);
+    src: url(../fonts/Playfair.ttf);
 }
 
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto.ttf);
+    src: url(../fonts/Roboto.ttf);
 }
 
-@font-face {
-    font-family: comforta;
-    src: url(fonts/Comforta.ttf);
-}
-body{
-    background: #F5F5F5;
-    margin: 1% 5%;
-    padding: 0;
-}
+
+
 header{
     font-family: inter;
-    margin-top: 50px;
 }
 
 #top_nav{
@@ -43,13 +35,14 @@ header{
 }
 
 #logo{
-    font-size: 20px;
+    font-family: ingrid;
+    color: rgba(56, 106, 141, 1);
+    font-size: 70px;
     display: inline-block; 
-    font-family: comforta;
 }
     
 
-nav ul {
+ nav ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -60,49 +53,86 @@ nav ul {
     padding: 0 25px;
 } 
 
-a {
-    text-decoration: none;
-    color: black;
+#content{
+    display: flex;
+    justify-content: space-between;
+
 }
 
-.active_page{
-    text-decoration: underline;
+#image{
+    height: 300px;
+    width: 300px;
+    padding: 0;
+    margin: 50px 100px 0 0;
+
 }
 
-a:hover {
-    color: rgb(167, 143, 143);
+#image img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
 }
 
-#logo a{
-    text-decoration: none;
+.text_section{
+    margin: 30px 200px 50px 2%;
+}
+
+.text_section h2{
+    font-size: 70px;
+    font-family: Playfair;
+}
+
+.text_section h6{
+    font-family: nunito;
+    color: rgba(130, 130, 130, 1);
+    font-size: 20px;
+}
+
+
+body{
+    background: #F5F5F5;
+    margin: 1% 3%;
+    padding: 0;
+}
+
+#buttons{
+    display: block;
+    
+    
+
+}
+
+.projects_button{
+    height: 43px;
+    width: 115px;
+    margin-right: 25px;
+    background-color: rgba(56, 106, 141, 1);
+    font-family: nunito;
+    border-radius: 10px;
+    
+
+}
+
+.proj_button:hover{
+    background-color: rgba(56, 106, 141, 1);
+}
+
+
+.linkdln_button{
+    height: 43px;
+    width: 115px;
+    font-family: nunito;
+    border-radius: 10px;
 }
 
 .main_headers{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-    font-family: Playfair;
-    padding: 45px;
-    }
-
-
-    .text_section{
-        margin: 30px 200px 50px 2%;
-        /* background-color: red; */
-    }
-    
-    .text_section h2{
-        font-size: 70px;
-        font-family: Playfair;
-    }
-    
-    .text_section h6{
-        font-family: nunito;
-        color: rgba(130, 130, 130, 1);
-        font-size: 20px;
-    }
-    
-
+display: flex;
+justify-content: center;
+font-size: 40px;
+font-family: Playfair;
+padding: 45px;
+}
 
 .projects_sec .text_section{
     text-align: center;
@@ -120,13 +150,12 @@ a:hover {
 
 
 .content_block .left{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 1);
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     border: 2px solid #fff;
-
 }
 .left .text_section{
     display:inline-flexbox;
@@ -136,17 +165,18 @@ a:hover {
     
 }
 .content_block .left h2{
+   
     font-size: 30px;
-    margin-left: 30%;
+    margin-left: 15%;
+    /* margin-top: 0; */
     white-space:inherit;
     width: 300px;
-
 
 }
 
 .content_block .left h6{
     padding-left: 10px;
-    width: 450px;
+    width: 350px;
     white-space:break-space;
 }
 
@@ -155,23 +185,18 @@ a:hover {
     width: 150px;
     border-radius: 50px;
     font-family: nunito;
-    margin-top: 10%;
-    margin-left: 35%;
+    margin-left: 30%;
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid black;
-    align-self: center;
     
 }
-
-.proj_button:hover{
-    background-color: rgba(56, 106, 141, 1);
-}
 .content_block .right{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color: red;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
+    /* background-clip: padding-box; */
     border: 2px solid #fff;
 }
 
@@ -183,21 +208,23 @@ a:hover {
 }
 
 .content_block_reverse .left{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color:red;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
+    /* background-clip: padding-box; */
     border: 2px solid #fff;
 
 }
 
 .content_block_reverse .right{
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     background-color: rgba(255, 255, 255, 1);
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
+    /* background-clip: padding-box; */
     border: 2px solid #fff;
 }
 
@@ -211,7 +238,7 @@ a:hover {
 }
 .content_block_reverse .right h2{
     font-size: 30px;
-    margin-left: 30%;
+    margin-left: 15%;
     /* margin-top: 0; */
     white-space:inherit;
     width: 300px;
@@ -220,11 +247,57 @@ a:hover {
 
 .content_block_reverse .right h6{
     padding-left: 10px;
-    width: 450px;
+    width: 350px;
     white-space:break-space;
 }
 
 
+.form_section{
+    display: flex;
+    justify-content: center;
+}
+
+.form_group{
+    margin-bottom: 10px;
+}
+
+.form_group label {
+    display: block; 
+    margin-bottom: 5px;
+    font-family: nunito;
+}
+
+.form_group input{
+    background-color: rgba(255, 255, 255, 1) ;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.form_group textarea {
+    background-color: rgba(255, 255, 255, 1) ;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.form_section .projects_button{
+    height: 35px;
+    width: 60px;
+}
+
+.message_header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: nunito;
+    margin: 100px 0 50px 0;
+    font-style: italic;
+}
 
 footer{
     margin-top: 100px;
@@ -240,4 +313,17 @@ footer{
     margin-right: 20px;
     height: 35px;
     width: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(167, 143, 143);
+}
+
+.active_page{
+    text-decoration: underline;
 }

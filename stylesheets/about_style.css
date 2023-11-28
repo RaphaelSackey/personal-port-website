@@ -1,30 +1,30 @@
 @font-face {
     font-family: inter;
-    src: url(fonts/inter.ttf);
+    src: url(../fonts/inter.ttf);
 }
 
 @font-face {
     font-family: ingrid;
-    src: url(fonts/IngridDarling.ttf);
+    src: url(../fonts/IngridDarling.ttf);
 }
 
 @font-face {
     font-family: nunito;
-    src: url(fonts/Nunito.ttf);
+    src: url(../fonts/Nunito.ttf);
 }
 @font-face {
     font-family: playFair;
-    src: url(fonts/Playfair.ttf);
+    src: url(../fonts/Playfair.ttf);
 }
 
 @font-face {
     font-family: roboto;
-    src: url(fonts/Roboto.ttf);
+    src: url(../fonts/Roboto.ttf);
 }
 
 @font-face {
     font-family: comforta;
-    src: url(fonts/Comforta.ttf);
+    src: url(../fonts/Comforta.ttf);
 }
 
 header{

@@ -1,12 +1,12 @@
 .content_block #first{
-    background-image: url('images/projet/Cooking\ iOS\ App.jpg');
+    background-image: url('../images/projet/Cooking\ iOS\ App.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .content_block_reverse #second{
-    background-image: url('images/projet/space.jpg');
+    background-image: url('../images/projet/space.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 
 .content_block #third{
-    background-image: url('images/projet/AI.jpg');
+    background-image: url('../images/projet/AI.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .content_block_reverse #fourth{
-    background-image: url('images/projet/Farm.jpg');
+    background-image: url('../images/projet/Farm.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
