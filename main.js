@@ -1,3 +1,6 @@
+// i have not used Js in like 2 years and i have forgotten the syntext so dont mind me being 
+// uneficient with the code and basically being specific and repeating myself lol.
+
 
 document.addEventListener('DOMContentLoaded', function() {
     var url = window.location.pathname;
@@ -56,5 +59,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-// i have not used Js in like 2 years and i have forgotten the syntext so dont mind my not being 
-// uneficient with the code and basically being specific and repeating myself lol.
