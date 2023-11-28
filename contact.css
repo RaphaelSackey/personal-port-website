@@ -1,0 +1,181 @@
+@font-face {
+    font-family: inter;
+    src: url(fonts/inter.ttf);
+}
+
+@font-face {
+    font-family: ingrid;
+    src: url(fonts/IngridDarling.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(fonts/Nunito.ttf);
+}
+@font-face {
+    font-family: playFair;
+    src: url(fonts/Playfair.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: comforta;
+    src: url(fonts/Comforta.ttf);
+}
+body{
+    background: #F5F5F5;
+    margin: 1% 5%;
+    padding: 0;
+}
+header{
+    font-family: inter;
+    margin-top: 50px;
+}
+
+#top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    font-size: 20px;
+    display: inline-block; 
+    font-family: comforta;
+}
+    
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex; 
+}
+
+ nav ul li {
+    padding: 0 25px;
+} 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.active_page{
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(167, 143, 143);
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+.main_headers{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: Playfair;
+    padding: 45px;
+    }
+
+
+
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* align-items: center; */
+
+}
+
+.contact_item{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.form_section{
+    display: flex;
+    justify-content: center;
+}
+
+.form_group{
+    margin-bottom: 10px;
+}
+
+.form_group label {
+    display: block; 
+    margin-bottom: 5px;
+    font-family: nunito;
+}
+
+.form_group input{
+    background-color: rgba(255, 255, 255, 1) ;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.form_group textarea {
+    background-color: rgba(255, 255, 255, 1) ;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.form_section .projects_button{
+    height: 35px;
+    width: 60px;
+}
+
+.message_header{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: nunito;
+    margin: 100px 0 50px 0;
+    font-style: italic;
+}
+
+.projects_button{
+    height: 43px;
+    width: 115px;
+    margin-right: 25px;
+    background-color: rgba(56, 106, 141, 1);
+    font-family: nunito;
+    border-radius: 10px;
+    
+
+}
+
+footer{
+    margin-top: 100px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer_img img {
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}

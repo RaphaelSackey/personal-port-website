@@ -3,42 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home|Raphael</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Raphael</title>
+    <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="proj_image_control.css">
 </head>
 <body>
     <header>
         <section id="top_nav">
-            <div id="logo"> Raphael</div>
+            <div id="logo"> <a href="index.html">Raphael Sackey</a></div>
             <nav>
                 <ul>
-                    <li><a href="index.html" class="active_page">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="portfolio.html" class="active_page">Portfolio</a></li>
                 </ul>    
             </nav>
         </section>
-        
-        
-        <section id="content">
-            <div class="text_section">
-                <h2>Hello, my name is Raphael Sackey</h3>
-                <h6>this section will have a short text with details about me, and what i do professionally career aaaaaadskfskfsfkldsahfhfkhdsfkhsdlfhsdkf fkdbfdshfhaslkfhdsklafhsbf ljsdfgisdhfipshfisdf.</h6>
-                <div id="buttons">
-                    <button class="projects_button" >projects</button>
-                    <button class="linkdln_button">linkdln</button>
-                </div>
-            </div>
-            <div id = "image">
-                <img src="images/self/Mask.jpg" alt="">
-            </div>
-            
-        </section>
-        
+
     </header>
 
+     
     <section class="projects_sec">
         <h2 class="main_headers">projects</h2>
         <div class="content_block">
@@ -56,10 +41,10 @@
 
         <div class="content_block_reverse">
             <div class="left" id="second"></div>
-            <div class="right" >
+            <div class="right">
                 <div class="text_section">
-                    <h2>ML image recognition model</h2>
-                    <h6>developed a ML model which is able to sorth between seafood and non sea food</h6>
+                    <h2>ISS weather <br>website</h2>
+                    <h6>this is a javascript html and css projects that used an external api to track the location of the international space station and displays the weather at its current location as related to the earth</h6>
                 </div>
                 <button class="proj_button">view project</button>
             </div>
@@ -78,32 +63,21 @@
             <div class="right" id="third"></div>
 
         </div>
-    </section>
 
-    <h6 class="message_header">Quick Message</h6>
+        <div class="content_block_reverse">
+            <div class="left" id="fourth"></div>
+            <div class="right">
+                <div class="text_section">
+                    <h2>Farm manager</h2>
+                    <h6>farm manager is a website built with python that allows users to keep track of animals in a form using a database. has features like add, remove, update, etc.</h6>
+                </div>
+                <button class="proj_button">view project</button>
+            </div>
+            
+        </div>
 
-    <section class="form_section">
         
-        <form action="" method="post">
-            <div class="form_group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-    
-            <div class="form_group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-    
-            <div class="form_group">
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-            </div>
-    
-            <button type="submit" class="projects_button">Submit</button>
-        </form>
     </section>
-    
 
     <footer >
         <div class="footer_img"><img src="social_logos/insta.png" alt=""></div>
@@ -113,6 +87,5 @@
 
 
 <script src="main.js"></script>
-
 </body>
 </html>
