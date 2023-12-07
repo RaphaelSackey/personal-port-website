@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|Raphael</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/proj_image_control.css">
+</head>
+<body>
+    <header>
+        <section id="top_nav">
+            <div id="logo"> Raphael</div>
+            <nav>
+                <ul>
+                    <li><a href="../pages/index.html" class="active_page">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="../pages/portfolio.html">Portfolio</a></li>
+                </ul>    
+            </nav>
+        </section>
+        
+        
+        <section id="content">
+            <div class="text_section">
+                <h2>Hello, my name is Raphael Sackey</h3>
+                <h6>Thanks for visiting my website. this website provides more information about me and allows you to 
+                    see some of the projects I've worked on by either clicking the projects button below or
+                    navigating to the portfolio page. this site is linked to my Github which will give you hands on code 
+                    review. Feel free to explore.
+                </h6>
+                <div id="buttons">
+                    <button class="projects_button" >projects</button>
+                    <button class="linkdln_button">linkdln</button>
+                </div>
+            </div>
+            <div id = "image">
+                <img src="../images/self/Mask.jpg" alt="">
+            </div>
+            
+        </section>
+        
+    </header>
+
+    <section class="projects_sec">
+        <h2 class="main_headers">projects</h2>
+        <div class="content_block">
+            <div class="left">
+                <div class="text_section">
+                    <h2>Mobile App <br> "Cant Cook"</h2>
+                    <h6>cant cook is a full stack ios and android app which allows users to take pictures of raw food ingredients and generate recipes based on the ingredients scanned</h6>
+                </div>
+                <button class="proj_button" id="pb_1">view project</button>
+            </div>
+            
+            <div class="right" id="first"></div>
+
+        </div>
+
+        <div class="content_block_reverse">
+            <div class="left" id="second"></div>
+            <div class="right" >
+                <div class="text_section">
+                    <h2>ML image recognition model</h2>
+                    <h6>developed a ML model which is able to sorth between seafood and non sea food</h6>
+                </div>
+                <button class="proj_button" id="pb_2">view project</button>
+            </div>
+            
+        </div>
+
+        <div class="content_block">
+            <div class="left">
+                <div class="text_section">
+                    <h2>ML image recognition model</h2>
+                    <h6>developed a ML model which is able to sorth between seafood and non sea food</h6>
+                </div>
+                <button class="proj_button" id="pb_3">view project</button>
+            </div>
+            
+            <div class="right" id="third"></div>
+
+        </div>
+    </section>
+
+    <h6 class="message_header">Quick Message</h6>
+
+    <section class="form_section">
+        
+        <form action="" method="post">
+            <div class="form_group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form_group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form_group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+    
+            <button type="submit" class="projects_button">Submit</button>
+        </form>
+    </section>
+    
+
+    <footer >
+        <div class="footer_img"> <a href="https://www.instagram.com"><img src="../social_logos/insta.png" alt="instagram logo"></a></div>
+        <div class="footer_img"><a href="https://www.linkedin.com/in/raphael-sackey-1120381b1/"><img src="../social_logos/linkedln.png" alt="linkdln logo"></a></div>
+        <div class="footer_img"><a href="mailto:rsack006@plattsburgh.edu"><img src="../social_logos/mail.png" alt="gmail logo"></a></div>
+    </footer>
+
+
+<script src="../main.js"></script>
+
+</body>
+</html>
