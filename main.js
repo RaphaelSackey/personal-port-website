@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (filename === 'index.html') {
         document.querySelector('.projects_button').addEventListener('click', function() {
-            window.location.href = 'docs/portfolio.html';
+            window.location.href = 'pages/portfolio.html';
         });
         
         
