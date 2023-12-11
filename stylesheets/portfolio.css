@@ -70,11 +70,12 @@ a {
 }
 
 a:hover {
-    color: rgb(167, 143, 143);
+    color: rgba(56, 106, 141, 1);
 }
 
 #logo a{
     text-decoration: none;
+    font-size: 30px;
 }
 
 .main_headers{

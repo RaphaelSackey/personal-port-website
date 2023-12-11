@@ -111,18 +111,15 @@ body{
     height: 43px;
     width: 115px;
     margin-right: 25px;
-    background-color: rgba(56, 106, 141, 1);
+    background-color: white;
     font-family: nunito;
     border-radius: 10px;
     
 
 }
 
-.linkdln_button{
-    height: 43px;
-    width: 115px;
-    font-family: nunito;
-    border-radius: 10px;
+.projects_button:hover{
+    background-color: rgba(56, 106, 141, 1);
 }
 
 .main_headers{
@@ -161,11 +158,13 @@ a {
 
 
 a:hover {
-    color: rgb(167, 143, 143);
+    color: rgba(56, 106, 141, 1);
 }
 
 #logo a{
     text-decoration: none;
+    font-size: 30px;
+
 }
 
 .active_page{

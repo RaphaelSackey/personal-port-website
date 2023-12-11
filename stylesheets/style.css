@@ -21,7 +21,10 @@
     font-family: roboto;
     src: url(../fonts/Roboto.ttf);
 }
-
+@font-face {
+    font-family: comforta;
+    src: url(../fonts/Comforta.ttf);
+}
 
 
 header{
@@ -35,10 +38,21 @@ header{
 }
 
 #logo{
-    font-family: ingrid;
-    color: rgba(56, 106, 141, 1);
-    font-size: 70px;
+    font-family: comforta;
+    /* color: rgba(56, 106, 141, 1); */
+    font-size: 30px;
     display: inline-block; 
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.text_section #name{
+    color: rgba(56, 106, 141, 1);
+    margin-left: 20px;
+}
+.text_section h2{
+    display: inline-block;
+    margin-bottom: 0;
+    
 }
     
 
@@ -107,14 +121,18 @@ body{
     height: 43px;
     width: 115px;
     margin-right: 25px;
-    background-color: rgba(56, 106, 141, 1);
+    background-color:white;
     font-family: nunito;
     border-radius: 10px;
     
 
 }
+.projects_button:hover{
+    background-color: rgba(56, 106, 141, 1);
+}
 
-.proj_button:hover{
+
+.proj_button:hover, .linkdln_button:hover{
     background-color: rgba(56, 106, 141, 1);
 }
 
@@ -124,14 +142,17 @@ body{
     width: 115px;
     font-family: nunito;
     border-radius: 10px;
+    background-color: white;
+
 }
+
 
 .main_headers{
 display: flex;
 justify-content: center;
 font-size: 40px;
 font-family: Playfair;
-padding: 45px;
+padding: 25px;
 }
 
 .projects_sec .text_section{
