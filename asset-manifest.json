@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/personal-port-website/static/css/main.a20f3672.css",
+    "main.js": "/personal-port-website/static/js/main.0b5178c5.js",
+    "index.html": "/personal-port-website/index.html",
+    "main.a20f3672.css.map": "/personal-port-website/static/css/main.a20f3672.css.map",
+    "main.0b5178c5.js.map": "/personal-port-website/static/js/main.0b5178c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a20f3672.css",
+    "static/js/main.0b5178c5.js"
+  ]
+}
