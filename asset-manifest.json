@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/personal-port-website/static/css/main.ee777b97.css",
-    "main.js": "/personal-port-website/static/js/main.50cbc20a.js",
+    "main.js": "/personal-port-website/static/js/main.dcb2581f.js",
     "index.html": "/personal-port-website/index.html",
     "main.ee777b97.css.map": "/personal-port-website/static/css/main.ee777b97.css.map",
-    "main.50cbc20a.js.map": "/personal-port-website/static/js/main.50cbc20a.js.map"
+    "main.dcb2581f.js.map": "/personal-port-website/static/js/main.dcb2581f.js.map"
   },
   "entrypoints": [
     "static/css/main.ee777b97.css",
-    "static/js/main.50cbc20a.js"
+    "static/js/main.dcb2581f.js"
   ]
 }
